@@ -26,6 +26,10 @@
     <input type="radio" name="type" value="Student" >     
      <label id= fontcolor for="Manager">Manager</label>  
      <input type="radio" name="type" value="Manger">
+     <label id= fontcolor for="accountant">Student</label>  
+    <input type="radio" name="type" value="accountant" >  
+    <label id= fontcolor for="parent">Student</label>  
+    <input type="radio" name="type" value="parent" >  
      <br>
      <br>
         <button> login</button>
