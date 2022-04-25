@@ -1,6 +1,6 @@
 <?php
 include_once "Functins.php";
-include_once "salary";
+
 
 class accountant extends user{
 private $salary;

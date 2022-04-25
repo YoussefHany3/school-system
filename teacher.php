@@ -1,12 +1,5 @@
-
 <?php
-include_once "Functins.php";
-include_once "salary";
-include_once "subject";
-
-
-
-
+include_once "function.php";
 class teacher extends user
 {
     public $typr;
