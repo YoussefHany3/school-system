@@ -13,7 +13,7 @@ class user
 	public$email;
 	private$password;
 	public$gender;
-	public$phone;
+	public$phonenumber;
 	public function Login ($Email,$Password)
 {
 	global $fileName;
