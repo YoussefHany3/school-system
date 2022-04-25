@@ -5,17 +5,7 @@ include_once "Functins.php";
 class accountant extends user{
 private $salary;
 
-public function Login ($Email,$Password)
-{
-	global $fileName;
-	if (searchUser($fileName,$Email."~".$Password))
-	{
-		return true;
-	}
-	else{
-		return false;
-	}
-}
+
 
 public function payment($id,$salary){
 
