@@ -29,7 +29,9 @@
      <label id= fontcolor for="accountant">Student</label>  
     <input type="radio" name="type" value="accountant" >  
     <label id= fontcolor for="parent">Student</label>  
-    <input type="radio" name="type" value="parent" >  
+    <input type="radio" name="type" value="parent" > 
+    <label id= fontcolor for="admin">Student</label>  
+    <input type="radio" name="type" value="admin" >  
      <br>
      <br>
         <button> login</button>
