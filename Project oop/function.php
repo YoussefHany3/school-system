@@ -89,4 +89,20 @@ function searchUser($fileName,$Search)
 	return FALSE;
 	
 }
+function Drawtablefromfile($fileName)
+{
+	$myfile = fopen($fileName, "r+") or die("unable to open file");
+	while(!feof($myfile))
+	{
+		$line = fgets($myfile);
+		echo"<tr>";
+		$Arrayline = explode("~",$line);
+		for($i=0;$i<count($Arrayline);$i++)
+		{
+			echo "<td>".$Arrayline[$i]."</td>";
+		}
+		echo "</tr>";
+	}
+	fclose($myfile);
+}
 ?>
