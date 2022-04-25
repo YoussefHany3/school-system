@@ -1,5 +1,5 @@
 <?php
-include "Functins.php";
+include_once "Functins.php";
 $fileName="UsersFile.txt";
 
 class user
