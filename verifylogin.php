@@ -34,6 +34,18 @@ else if($type=="accountant")
      $ss->login($namee,$pass);
 
 }
+else if($type=="parent")
+{  
+    $ss=new parent();
+     $ss->login($namee,$pass);
+
+}
+else if($type=="admin")
+{  
+    $ss=new admin();
+     $ss->login($namee,$pass);
+
+}
 echo $namee;
 echo '<pre>';
 echo $pass;
