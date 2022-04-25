@@ -1,5 +1,4 @@
 <?php
-// do all file manipulations
 function Encrypt($Word,$Key)
 {
 	$Result="";
