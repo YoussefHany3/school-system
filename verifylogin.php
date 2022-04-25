@@ -1,7 +1,8 @@
 <?php
 
 $namee=$_POST['username'];
-$password=$_post['password'];
+$pass=$_POST['password'];
 echo $namee;
-echo $password;
+echo '<pre>';
+echo $pass;
 ?>

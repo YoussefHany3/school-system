@@ -10,7 +10,7 @@
 
 <body>
 
-    <form action="vrifylogin.php" method="POST">
+    <form action="verifylogin.php" method="POST">
 
         <label for="">name</label>
 
