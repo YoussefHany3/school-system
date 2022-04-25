@@ -17,16 +17,16 @@ if($type=="Teacher")
     $ss->login($namee,$pass);
 
 }
+else if($type=="Manger")
+{
+    $ss=new Manger();
+    $ss->login($namee,$pass);
+}
 else if($type=="Student")
 {  
     $ss=new student();
      $ss->login($namee,$pass);
 
-}
-else if($type=="Manger")
-{
-    $ss=new Manger();
-    $ss->login($namee,$pass);
 }
 echo $namee;
 echo '<pre>';
