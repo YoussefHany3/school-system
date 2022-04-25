@@ -1,7 +1,5 @@
 <?php
-include_once("user.php");
-include_once("student.php");
-include_once("teacher.php");
+
 class manager extends user{
 
     public $securemangnum;
@@ -68,7 +66,7 @@ class manager extends user{
   }
   private function update($id,$name,$Email,$password,$phonenumber)
   {
-      
+
   }
 }
 ?>
