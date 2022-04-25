@@ -1,10 +1,10 @@
 <?php
-include_once"teacher.php";
-include_once"manger.php";
-include_once"student.php";
-include_once"admin.php";
-include_once"accountant.php";
-include_once"parent.php";
+include_once("teacher.php");
+include_once("manger.php");
+include_once("student.php");
+include_once("admin.php");
+include_once("accountant.php");
+include_once("parent.php");
 
 
 $namee=$_POST['username'];

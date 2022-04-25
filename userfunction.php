@@ -48,24 +48,27 @@
         {
             return true;
         }
-        else{
+        else
+        {
             return false;
         }
     }
     function addUser($Email,$Password,$FullName,$DOB)
     {
-    global $fileName;
-    $id=getLastId($fileName,"~")+1;
-    $record=$id."~".$Email."~".$Password."~".$FullName."~".$DOB;   
-    if (searchUser($fileName,$Email)==FALSE)
-    {
-    StoreRecord( $fileName,$record);	
-    return true;
+        global $fileName;
+        $id=getLastId($fileName,"~")+1;
+        $record=$id."~".$Email."~".$Password."~".$FullName."~".$DOB;   
+        if (searchUser($fileName,$Email)==FALSE)
+        {
+        StoreRecord( $fileName,$record);	
+        return true;
+        }
+        else
+        {
+            return FALSE;
+        }
     }
-    else
-    {
-        return FALSE;
-    }
-}
+     
+
        
 ?>
