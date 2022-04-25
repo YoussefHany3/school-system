@@ -24,6 +24,7 @@ function ListAll($fileName)
 {
 	return readfile($fileName);
 }
+
 function getLastId($fileName,$Separator)
 {
 	
@@ -88,5 +89,22 @@ function searchUser($fileName,$Search)
 	fclose($myfile);	
 	return FALSE;
 	
+}
+function readfile($filename)
+{
+	$myfile=fopen($filename,"r+") or die("unable to open file!");
+	while(!feof($myfile))
+	{
+		$line=fgets($myfile);
+		echo"<tr>";
+		$arrayline=explode("~",$line);
+		for($i=0;$i<count($arrayline);$i++)
+		{
+			echo"<td>".$arrayline[$i]."</td>";
+
+		}
+		echo"</tr>";
+	}
+	fclose($myfile);
 }
 ?>
