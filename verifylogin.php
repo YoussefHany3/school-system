@@ -10,7 +10,7 @@ include_once"parent.php";
 $namee=$_POST['username'];
 $pass=$_POST['password'];
 $type=$_POST['type'];
-if($type=="Teacher")
+if($type=="teacher")
 {
     $ss=new teacher();
     
@@ -22,7 +22,7 @@ else if($type=="manger")
     $ss=new manger();
     $ss->login($namee,$pass);
 }
-else if($type=="Student")
+else if($type=="student")
 {  
     $ss=new student();
      $ss->login($namee,$pass);
