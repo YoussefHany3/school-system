@@ -28,6 +28,12 @@ else if($type=="Student")
      $ss->login($namee,$pass);
 
 }
+else if($type=="accountant")
+{  
+    $ss=new accountant();
+     $ss->login($namee,$pass);
+
+}
 echo $namee;
 echo '<pre>';
 echo $pass;
