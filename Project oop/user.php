@@ -26,6 +26,40 @@ class user
 	}
 
 }
+	/**
+	 * 
+	 * @return mixed
+	 */
+	function getPassword() {
+		return $this->password;
+	}
+	
+	/**
+	 * 
+	 * @param mixed $password 
+	 * @return user
+	 */
+	function setPassword($password): self {
+		$this->password = $password;
+		return $this;
+	}
+	/**
+	 * 
+	 * @return mixed
+	 */
+	function getAddress() {
+		return $this->address;
+	}
+	
+	/**
+	 * 
+	 * @param mixed $address 
+	 * @return user
+	 */
+	function setAddress($address): self {
+		$this->address = $address;
+		return $this;
+	}
 }
 
 ?>
