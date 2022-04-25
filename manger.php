@@ -2,7 +2,14 @@
 
 class manager extends user{
 
+<<<<<<< Updated upstream
     public $securemangnum;
+=======
+    private $securemangnum;
+    
+    
+
+>>>>>>> Stashed changes
   
    private function send_reports($id,$name,$Email,$securemangnum)
    {
