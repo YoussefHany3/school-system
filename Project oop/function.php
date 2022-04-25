@@ -108,16 +108,5 @@ function readfile($filename)
 	}
 	fclose($myfile);
 }
-function Login ($Email,$Password)
-{
-	global $fileName;
-	if (searchUser($fileName,$Email."~".$Password))
-	{
-		return true;
-	}
-	else{
-		return false;
-	}
 
-}
 ?>
