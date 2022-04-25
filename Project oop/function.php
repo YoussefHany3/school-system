@@ -90,6 +90,7 @@ function searchUser($fileName,$Search)
 	return FALSE;
 	
 }
+
 function readfile($filename)
 {
 	$myfile=fopen($filename,"r+") or die("unable to open file!");
@@ -106,5 +107,17 @@ function readfile($filename)
 		echo"</tr>";
 	}
 	fclose($myfile);
+}
+function Login ($Email,$Password)
+{
+	global $fileName;
+	if (searchUser($fileName,$Email."~".$Password))
+	{
+		return true;
+	}
+	else{
+		return false;
+	}
+
 }
 ?>
