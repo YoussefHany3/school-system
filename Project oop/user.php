@@ -12,6 +12,6 @@ function Login ($Email,$Password)
 	else{
 		return false;
 	}
-    echo ("tmm"(
+
 }
 ?>
