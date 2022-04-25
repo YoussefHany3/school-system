@@ -6,10 +6,7 @@ class manger extends user{
 
     private $securemangnum;
     
-    
 
-
-  
     public  function send_reports($id,$name,$Email,$securemangnum)
    {
 

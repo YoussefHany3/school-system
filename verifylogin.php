@@ -40,9 +40,9 @@ else if($type=="parent")
      $ss->login($namee,$pass);
 
 }
-else if($type=="admin")
+else if($type=="Admin")
 {  
-    $ss=new admin();
+    $ss=new Admin();
      $ss->login($namee,$pass);
 
 }
