@@ -19,7 +19,7 @@ if($type=="Teacher")
 }
 else if($type=="manger")
 {
-    $ss=new manger();
+    $ss=new manager();
     $ss->login($namee,$pass);
 }
 else if($type=="Student")

@@ -2,7 +2,13 @@
 
 class manager extends user{
 
-    public $securemangnum;
+    
+
+    private $securemangnum;
+    
+    
+
+
   
    private function send_reports($id,$name,$Email,$securemangnum)
    {
