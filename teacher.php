@@ -8,17 +8,7 @@ class teacher extends user
     public $subjectk;
     public $book;
 
-    public function Login ($Email,$Password)
-{
-	global $fileName;
-	if (searchUser($fileName,$Email."~".$Password))
-	{
-		return true;
-	}
-	else{
-		return false;
-	}
-}
+    
 public function takeattendance($id)
 {
 
