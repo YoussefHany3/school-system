@@ -1,5 +1,5 @@
 <?php
-class teacher extends Manager
+class teacher
 {
     public $typr;
     private $salary;
