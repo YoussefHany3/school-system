@@ -8,6 +8,6 @@ class manager extends user{
    public $fileName;
 
    public $Email;
-
+   private function send reports();
 }
 ?>
