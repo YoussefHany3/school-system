@@ -1,6 +1,6 @@
 <?php
 
-class manager extends user{
+class manger extends user{
 
     
 
