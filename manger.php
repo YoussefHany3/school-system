@@ -2,71 +2,90 @@
 
 class manager extends user{
 
-    public $securemangnum;
+    private $securemangnum;
+    
+
   
-   private function send_reports($id,$name,$Email,$securemangnum)
+    public function send_reports($id,$name,$Email,$securemangnum)
    {
 
    }
-   private function remote_parent_meeting($id,$name,$Email)
+   public function remote_parent_meeting($id,$name,$Email)
    {
 
    }
-   private function give_salary($id,$salary)
+   public function give_salary($id,$salary)
    {
 
    }
-   private function view_teacher($id)
+   public function view_teacher($id)
    {
 
    }
-   private function send_depraviation($id,$Email,$securemangnum)
+   public function send_depraviation($id,$Email,$securemangnum)
    {
 
    }
-  private function make_promotions($id,$securemangnum)
+   public function make_promotions($id,$securemangnum)
   {
 
   }
-  private function make_learning_resource($securemangnum)
+  public function make_learning_resource($securemangnum)
   {
 
   }
-  private function upload_admissins_paper($securemangnum)
+  public function upload_admissins_paper($securemangnum)
   {
 
   }
-  private function make_reports($securemangnum)
+  public function make_reports($securemangnum)
   {
 
   }
-  private function make_interview($id,$name,$Email,$phonenumber)
+  public function make_interview($id,$name,$Email,$phonenumber)
   {
 
   }
-  private function take_salary($id,$password)
+  public function take_salary($id,$password)
   {
 
   }
-  private function take_staff_attendance($id)
+  public function take_staff_attendance($id)
   {
 
   }
-  private function give_deductions($name,$date,$salary)
+  public function give_deductions($name,$date,$salary)
   {
 
   }
-  private function add_usaer($id,$Email,$name,$password,$phonenumber)
+  public function add_usaer($id,$Email,$name,$password,$phonenumber)
   {
 
   }
-  private function delete_user($id,$password)
+  public function delete_user($id,$password)
   {
 
   }
-  private function update($id,$name,$Email,$password,$phonenumber)
+  public function update($id,$name,$Email,$password,$phonenumber)
   {
 
   }
+	/**
+	 * 
+	 * @return mixed
+	 */
+	function getSecuremangnum() {
+		return $this->securemangnum;
+	}
+	
+	/**
+	 * 
+	 * @param mixed $securemangnum 
+	 * @return manager
+	 */
+	function setSecuremangnum($securemangnum): self {
+		$this->securemangnum = $securemangnum;
+		return $this;
+	}
 }
 ?>
