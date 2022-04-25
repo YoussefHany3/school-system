@@ -19,12 +19,15 @@
         <label for="">password</label>
         <input type="password" name="password">
         <br>
-        <label id= fontcolor for="Teacher"> Teacher</label>   
-          <input type="radio" name="type" value="Teacher"required >    
-       <label id= fontcolor for="Student">Student</label>  
-      <input type="radio" name="type" value="Student" >     
+        <br>
+    <label id= fontcolor for="Teacher"> Teacher</label>   
+    <input type="radio" name="type" value="Teacher"required >    
+    <label id= fontcolor for="Student">Student</label>  
+    <input type="radio" name="type" value="Student" >     
      <label id= fontcolor for="Manager">Manager</label>  
-    <input type="radio" name="type" value="Manger">
+     <input type="radio" name="type" value="Manger">
+     <br>
+     <br>
         <button> login</button>
 
 
