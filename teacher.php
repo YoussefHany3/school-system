@@ -2,7 +2,7 @@
 include_once "function.php";
 class teacher extends user
 {
-    public $typr;
+    public $type;
     private $salary;
     public $students;
     public $subjectk;
