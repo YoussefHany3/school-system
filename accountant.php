@@ -2,7 +2,8 @@
 include_once "Functins.php";
 
 
-class accountant extends user{
+class accountant
+{
 private $salary;
 
 

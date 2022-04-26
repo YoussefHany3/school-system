@@ -1,14 +1,14 @@
 <?php
 include_once('student.php');
 include_once('teacher.php');
-    class Admin extends user
+    class Admin
     {
         public $securenum;
         
-        public $teacherobj=new teacher();
+       
 
 
-        public function modify_teacher($teacherobj.id,$teacherobj.name,$teacherobj.email,$teacherobj.phonenumber)
+        public function modify_teacher()
         {
 
         }

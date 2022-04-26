@@ -1,5 +1,5 @@
 <?php
-class parent extends user 
+class parent
 {
     public $students;
     public $teachert;

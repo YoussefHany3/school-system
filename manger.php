@@ -1,6 +1,6 @@
 <?php
 
-class manger extends user{
+class manger {
 
     
 

@@ -1,5 +1,5 @@
 <?php
-class student extends user
+class student 
 {
     public $shcoolyear;
     public $subject;
