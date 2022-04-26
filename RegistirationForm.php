@@ -1,6 +1,6 @@
 <?php
 
-?><form action="RegisterForm2.php" method="post">
+?><form action="RegistirationForm2.php" method="post">
 <table>
 	<tr>
 		<td>Email</td>

@@ -1,5 +1,5 @@
 <?php
-include "UserFnc.php";
+include "userfunction.php";
 
 $pass=Encrypt($_REQUEST["Password"],2);
 
