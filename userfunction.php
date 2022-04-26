@@ -53,11 +53,11 @@
             return false;
         }
     }
-    function addUser($Email,$Password,$FullName,$DOB)
+    function addUser($id,$type,$FullName,$DOB,$relegion,$address,$Email,$Password,$gender,$phone)
     {
         global $fileName;
         $id=getLastId($fileName,"~")+1;
-        $record=$id."~".$Email."~".$Password."~".$FullName."~".$DOB;   
+        $record=$id."~".$type."~".$FullName."~".$DOB."~".$relegion."~".$address."~".$Email."~".$Password."~".$gender."~".$phone;   
         if (searchUser($fileName,$Email)==FALSE)
         {
         StoreRecord( $fileName,$record);	
