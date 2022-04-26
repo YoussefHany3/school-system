@@ -4,7 +4,8 @@
     function DeleteUser($id)
     {
         global $fileName;
-        $r=getRowById($fileName,"~",$id);     
+        $r=getRowById($fileName,"~",$id); 
+
         DeleteRecord($fileName,$r);
     }
     function UpdateUser($id,$Email,$Password,$FullName,$DOB)
