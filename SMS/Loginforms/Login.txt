@@ -1,0 +1,12 @@
+usertype :Student
+username :mahmoud
+Password :1234
+usertype :Teacher
+username :Ayman12
+Password :2233
+usertype :Teacher
+username :Ayman12
+Password :2233
+usertype :Student
+username :mahmoud
+Password :1234
