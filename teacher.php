@@ -1,6 +1,6 @@
 <?php
 include_once "function.php";
-class teacher
+class teacher implements intarface
 {
     public $type;
     private $salary;
