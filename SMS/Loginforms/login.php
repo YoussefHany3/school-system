@@ -52,7 +52,7 @@
     $usernameT1="Ayman12";
     $passwordT1="2233";
     
-    if(isset($_POST['submit']) && $usernameS1===$getUserName && $passwordS1===$getUserPassowrd && $getUserType===Student)
+    if(isset($_POST['submit']) && $usernameS1===$getUserName && $passwordS1===$getUserPassowrd && $getUserType===$Student)
     {
         $file=fopen("Login.txt","a");
         fwrite($file,"usertype :");
@@ -64,7 +64,7 @@
         fclose($file);
         echo "<script> location.replace('http://localhost/SMS/Student/studentpage.html') </script>";
     }
-    else if(isset($_POST['submit']) && $usernameT1===$getUserName && $passwordT1===$getUserPassowrd &&$getUserType===Teacher)
+    else if(isset($_POST['submit']) && $usernameT1===$getUserName && $passwordT1===$getUserPassowrd &&$getUserType===$Teacher)
     {
         $file=fopen("Login.txt","a");
         fwrite($file,"usertype :");
@@ -76,7 +76,7 @@
         fclose($file);
         echo "<script> location.replace('http://localhost/SMS/Teacher/onlineeducation/index.html') </script>";
     }
-    else if($getUserType===Admin)
+    else if($getUserType===$Admin)
     {
         echo "<script> location.replace('http://localhost/SMS/Admin/adminpage.html') </script>";
     }

@@ -76,5 +76,9 @@ public function borrowbook($id)
 		$this->salary = $salary;
 		return $this;
 	}
+	/**
+	 */
+	function __construct() {
+	}
 }
 ?>

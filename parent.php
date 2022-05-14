@@ -46,7 +46,7 @@ class parent
 	 */
 	function setFees($fees): self {
 		$this->fees = $fees;
-		return $this;
+		return;
 	}
 }
 ?>
