@@ -1,0 +1,4 @@
+1|02|A|2|ahmed|01012222681|mahmoud.wael5@msa.edu.eg
+1|01|A|1|ahn|01012222681|mahmoud.wael5@msa.edu.eg
+1|01|A|1|ahn|01012222681|mahmoud.wael5@msa.edu.eg
+2|02|A|201|ahmed|01012222681|mahmoud.wael5@msa.edu.eg
